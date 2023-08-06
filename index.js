@@ -1,7 +1,8 @@
 // To connect with your mongoDB database
 const mongoose = require("mongoose");
 mongoose.connect(
-    "mongodb://127.0.0.1:27017/",
+    // "mongodb://127.0.0.1:27017/",
+     "mongodb+srv://devil8871050882:6XBLpYCKwHhZwVww@myfirst.9ykxjc3.mongodb.net/?retryWrites=true&w=majority",
   {
     dbName: "MyFirst",
     useNewUrlParser: true,
